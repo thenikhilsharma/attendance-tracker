@@ -1,0 +1,48 @@
+ul{
+    color:aliceblue;
+}
+
+.navbar{
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    align-items: center;
+    font-size: 1.2vw;
+    border-radius: 0 20px 20px 0px;
+}
+
+.profile{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.navbar-elements{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+
+.active-tab:hover, .non-active-tab:hover{
+    background-color: hsl(0, 0%, 20%);
+}
+
+.active-tab{
+    color: white;
+    background-color: hsl(0, 0%, 15%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5vw;
+    width: 18vw;
+}
+
+.non-active-tab{
+    color: white;
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5vw;
+    width: 18vw;
+}
