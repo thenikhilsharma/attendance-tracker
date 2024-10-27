@@ -1,10 +1,9 @@
 import React from 'react'
-import Modal from '@mui/joy/Modal';
 
 const EM = () => {
   return (
     <div>
-      this is modal
+      <h1>This is for EM</h1>
     </div>
   )
 }

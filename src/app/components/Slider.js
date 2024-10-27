@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import CircleProgressBar from './CircleProgressBar';
-import '../dashboard/dashboard.css'
+import '../(tabs)/dashboard/dashboard.css'
 
 const Slider = () => {
   const [percentange, setPercentage] = useState(35);

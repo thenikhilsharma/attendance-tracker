@@ -1,7 +1,6 @@
 import React from 'react';
-import '../globals.css';
 import './dashboard.css'
-import CircleProgressBar from '../components/CircleProgressBar';
+import CircleProgressBar from '../../components/CircleProgressBar';
 import Link from 'next/link';
 
 const Dashboard = () => {

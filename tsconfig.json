@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Slider.js", "src/app/components/CircleProgressBar.jsx", "src/app/(courses)/courses/[courseTitle]/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/Slider.js", "src/app/components/CircleProgressBar.jsx", "src/app/courses/[courseTitle]/page.tsx"],
   "exclude": ["node_modules"]
 }

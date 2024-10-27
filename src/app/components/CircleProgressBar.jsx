@@ -1,6 +1,6 @@
 import React from 'react'
 import { CircularProgress } from '@mui/material'
-import '../dashboard/dashboard.css'
+import '../(tabs)/dashboard/dashboard.css'
 
 const CircleProgressBar = ({percentage, text}) => {
   return (
